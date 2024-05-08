@@ -1,6 +1,6 @@
 # EX.NO 5 - Sub Queries and Views in SQL
-### DATE :        
-### NAME : JAYABHARATHI S
+
+### DATE : 20.03.2024    
 ### REGISTER NUMBER : 212222100013
 
 ## AIM:

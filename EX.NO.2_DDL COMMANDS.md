@@ -1,16 +1,19 @@
 # EXP NO 2: DATA DEFINITION LANGUAGE COMMANDS AND ITS CONSTRAINTS
-### DATE : 
-### REGISTER NUMBER: 
+### DATE :  .  .2024
+### NAME : JAYABHARATHI S
+### REGISTER NUMBER : 212222100013
+
 ## AIM:
  To study and write DDL commands and different types of constraints.
+ 
 ## THEORY
-```
-### DDL (Data Definition Language)
+## DDL (Data Definition Language)
 * DDL or Data Definition Language actually consists of the SQL commands that can be used to define the database schema.
 * It simply deals with descriptions of the database schema and is used to create and modify the structure of database objects in the database.
 * DDL is a set of SQL commands used to create, modify, and delete database structures but not data.
 * These commands are normally not used by a general user, who should be accessing the database via an application.
-### List of DDL commands: 
+
+## List of DDL commands: 
 1. CREATE: This command is used to create the database or its objects (like table, index, function, views, store procedure, and triggers).
    Syntax:CREATE TABLE (field_1 data_type(size),field_2 data_type(size), .. . );
 2. ALTER: This is used to alter the structure of the database.
@@ -25,8 +28,9 @@
 3. DROP TABLE :This is used to delete the structure of a relation. It permanently deletes the records in the table.
    Syntax: DROP TABLE relation_name;
 4. RENAME: This is used to rename an object existing in the database.
-   Syntax: RENAME TABLE old_relation_name TO new_relation_name;     
-### CONSTRAINTS
+   Syntax: RENAME TABLE old_relation_name TO new_relation_name;
+
+## CONSTRAINTS
 Constraints are used to specify rules for the data in a table. If there is any violation between the constraint and the data action, the action is aborted by the constraint. It can be specified when the table is created (using CREATE TABLE statement) or after the table is created (using ALTER TABLE statement). 
 1. NOT NULL:
    When a column is defined as NOTNULL, then that column becomes a mandatory column. It implies that a value must be entered into the column if the record is to be accepted for storage in the table. 
@@ -52,7 +56,7 @@ CREATE TABLE Table_Name(column_name data_type(size) FOREIGN KEY(column_name) REF
 6. DEFAULT : The DEFAULT constraint is used to insert a default value into a column. The default value will be added to all new records, if no other value is specified. 
 Syntax:
 CREATE TABLE Table_Name(col_name1,col_name2,col_name3 DEFAULT ‘’);
-```
+
 ## PROCEDURE
 1. Start the program. 
 2. Read the given query.
@@ -63,19 +67,22 @@ CREATE TABLE Table_Name(col_name1,col_name2,col_name3 DEFAULT ‘’);
 6. Specify the constraints NOT NULL,UNIQUE,DEFAULT,UNIQUE based on the query
 7. Show the output
 8. Stop the program
+9. 
 ## Query 1:
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/908acbce-7e1f-49ca-b8b5-9dca4e8aef38)
 ### SQL QUERY:
 CREATE TABLE Employee (eid INTEGER PRIMARY KEY AUTOINCREMENT,name VARCHAR(50),designation VARCHAR(30));
 ### OUTPUT TEST CASE:
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/c0f06a33-4afd-4c30-b74b-8ffb47f022a6)
-### Query 2:
+
+## Query 2:
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/9ffc13e7-7791-46e5-b648-2aa451948bec)
 ### SQL QUERY: 
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/fdbfa19a-cd78-44b2-ac75-dd9e0c1382c9)
 ### OUTPUT TEST CASE:
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/3135af0b-9d2f-4049-a778-3b461e12d7b5)
-### Query 3:
+
+## Query 3:
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/64cb1b20-455b-4852-816f-d11c48a153ab)
 ### SQL QUERY: 
 ```
@@ -89,9 +96,8 @@ VALUES (3, 'Kaushik', 23, 'Kota', 2000.00 );
 ### OUTPUT TEST CASE:
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/220387c6-f6e8-4aef-8617-24ec6e677c3e)
 
-### Query 4:
+## Query 4:
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/080001f3-6034-4271-a376-19f72cf0df5a)
-
 ### SQL QUERY: 
 ```
 INSERT INTO Student (RollNo, Name, Gender, Subject, MARKS) VALUES 
@@ -102,7 +108,9 @@ INSERT INTO Student (RollNo, Name, Gender, Subject, MARKS) VALUES
 ```
 ### OUTPUT TEST CASE:
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/3471a64b-65b5-43b5-8862-f8e4072e0674)
-### Query 5:
+
+
+## Query 5:
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/1103ce7b-37c3-4243-a351-8d1206cb7476)
 ### SQL QUERY: 
 ```
@@ -113,25 +121,29 @@ WHERE Age<25;
 ```
 ### OUTPUT:
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/ac597de4-334d-4391-920e-8374e35be76f)
-### Query 6:
+
+## Query 6:
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/eb2ec792-5e04-4107-b5f7-4e66d490fe0d)
 ### SQL QUERY: 
 ALTER TABLE employee ADD designation varchar(50);
 ### OUTPUT:
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/68559357-138b-46fc-a753-91458e93e0e6)
-### Query 7:
+
+## Query 7:
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/62b82b22-02eb-418e-9763-a887d3f297d8)
 ### SQL QUERY: 
 ALTER TABLE Student_details ADD Country TEXT;
 ### OUTPUT:
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/0ae97674-b109-4970-a9f8-ffff9b9ba43e)
-### Query 8:
+
+## Query 8:
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/414793c7-c72e-434a-b6e4-9029a28de61a)
 ### SQL QUERY: 
 ALTER TABLE Student_details ADD Date_of_birth Date;
 ### OUTPUT:
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/036569e4-0874-4143-8240-958883674ee8)
-### Query 9:
+
+## Query 9:
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/062c6676-73e8-4350-87d3-e34af019aa7e)
 ### SQL QUERY: 
 ```
@@ -142,8 +154,8 @@ mobilenumber number,UNIQUE(eid));
 ```
 ### OUTPUT:
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/f609fc64-365e-4f86-a68e-e52693110911)
-### Query 10:
 
+## Query 10:
 ### SQL QUERY: 
 ```
 CREATE TABLE Orders (

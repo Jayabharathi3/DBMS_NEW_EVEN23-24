@@ -1,6 +1,6 @@
 # EX.NO 1: ER DIAGRAM CREATION, RELATIONAL MODEL AND SCHEMA GENERATION  
 
-### DATE : 14.02.2024
+### DATE : 
 ### REGISTER NUMBER : 212222100013 
 
 ## AIM:
@@ -15,7 +15,6 @@
 
 ## ER DIAGRAM
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/3d55670f-6398-418e-af51-6b654c007b93)
-
 
 ## RELATIONAL MODEL
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/96d8d7cb-01e2-4129-b640-03f3085eca53)

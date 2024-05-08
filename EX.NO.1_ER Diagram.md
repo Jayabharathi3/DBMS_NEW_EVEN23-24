@@ -20,7 +20,7 @@
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/96d8d7cb-01e2-4129-b640-03f3085eca53)
 
 ## SQL DDL SCHEMA
-```
+
 CREATE TABLE Programs
 (
   pro_id INT NOT NULL,
@@ -132,7 +132,7 @@ CREATE TABLE College
   FOREIGN KEY (Dname) REFERENCES Departments(Dname),
   FOREIGN KEY (staff_no) REFERENCES Instructors(staff_no)
 ); 
-```
+
 
 ## RESULT 
 Thus the ER diagram was drawn and relational diagram, SQL DDL staements are generated using ERD plus tool.

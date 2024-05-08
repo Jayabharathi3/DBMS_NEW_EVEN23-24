@@ -1,6 +1,6 @@
 # EX.NO 4 - Aggregation functions, Having and Group By clause in SQL
+
 ## DATE :        
-## NAME : JAYABHARATHI S
 ## REGISTER NUMBER : 212222100013
 
 ## AIM:

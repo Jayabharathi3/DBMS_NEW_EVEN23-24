@@ -1,5 +1,6 @@
-# Ex.No: 7 - PL/SQL program to perform addition and subtraction of two number 
-### DATE :        
+# Ex.No: 7 - PL/SQL program to perform addition and subtraction of two number
+
+### DATE : 16.04.2024   
 ### REGISTER NUMBER : 212222100013
 
 ## AIM: 

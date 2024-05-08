@@ -1,5 +1,6 @@
 # EX.NO 6 - TYPES OF JOINS in SQL
-### DATE :        
+
+### DATE :  03.04.2024
 ### REGISTER NUMBER : 212222100013
 
 ## AIM:

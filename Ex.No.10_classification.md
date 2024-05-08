@@ -1,5 +1,6 @@
 # EX.NO.10 - Simulating Classification using WEKA Data mining and Analysis Tool
-### DATE :        
+
+### DATE :  08.05.2024      
 ### REGISTER NUMBER : 212222100013
 
 ## AIM:

@@ -1,6 +1,6 @@
 # EX.NO 3 - Data Manipulation Language (DML) Commands and built in functions in SQL
+
 ## DATE :        
-## NAME : JAYABHARATHI S
 ## REGISTER NUMBER : 212222100013
 
 ## AIM:

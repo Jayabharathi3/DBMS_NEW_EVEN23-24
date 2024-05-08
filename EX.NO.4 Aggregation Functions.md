@@ -1,6 +1,6 @@
 # EX.NO 4 - Aggregation functions, Having and Group By clause in SQL
 
-## DATE :        
+## DATE : 06.03.2024        
 ## REGISTER NUMBER : 212222100013
 
 ## AIM:

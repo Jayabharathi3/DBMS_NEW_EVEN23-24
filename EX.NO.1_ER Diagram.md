@@ -74,15 +74,6 @@ CREATE TABLE Teaches
   FOREIGN KEY (staff_no) REFERENCES Instructors(staff_no)
 );
 
-CREATE TABLE prerequisites
-(
-  pro_id INT NOT NULL,
-  course_no INT NOT NULL,
-  PRIMARY KEY (pro_id, course_no),
-  FOREIGN KEY (pro_id) REFERENCES Programs(pro_id),
-  FOREIGN KEY (course_no) REFERENCES Courses(course_no)
-);
-
 CREATE TABLE convenient
 (
   course_no INT NOT NULL,
